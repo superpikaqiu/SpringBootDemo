@@ -1,0 +1,28 @@
+custom:
+  name: zhangsan \n sdf
+  age: 12
+  arr: [sd,上来看, 12]
+  brr:
+    - sdk
+    - lkds
+    - dsf
+  score: {english: 80, math: 12}
+  pet:
+    name: 12
+    weight: 12.31
+  orgName: abc
+
+
+#spring:
+#  mvc:
+#    static-path-pattern: /res/**
+#
+#  web:
+#    resources:
+#      static-locations: classpath:/aa
+
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: false
